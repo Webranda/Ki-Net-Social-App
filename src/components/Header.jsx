@@ -8,6 +8,7 @@ import Notifications from '@mui/icons-material/Notifications';
 import LiveTvRoundedIcon from '@mui/icons-material/LiveTvRounded';
 import StorefrontRoundedIcon from '@mui/icons-material/StorefrontRounded';
 import ChatRounded from '@mui/icons-material/ChatRounded';
+import image from '../assets/logo192.png';
 
 function Header({ toggleWidgets, toggleSidebar }) {
   const isMobile = window.innerWidth <= 768;
@@ -15,7 +16,7 @@ function Header({ toggleWidgets, toggleSidebar }) {
   return (
     <div className='header'>
         <div className='header__left'>
-          <img src='./logo192.png' alt='appLogo'/>
+          <img src={image} alt='appLogo'/>
           <div className='header__search'>
               <Search/>
               <input type='search' placeholder='Search'/>

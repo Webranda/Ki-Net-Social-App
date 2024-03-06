@@ -2,7 +2,6 @@ import { Avatar } from '@mui/material';
 import React from 'react'
 import './Sidebar.css'
 import Image from '../assets/cover_image.jpeg'
-// import { deepOrange } from '@mui/material/colors';
 
 function Sidebar({ isOpen }) {
 

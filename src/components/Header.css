@@ -28,6 +28,7 @@
     background-color: whitesmoke;
     border: 2px solid lightgray;
     border-radius: 20px;
+    margin-left: 25%;
 }
 .header__search > input {
     outline: none;
@@ -54,5 +55,9 @@
         background-color: #fff; 
         padding: 10px;
         border-top: 1px solid rgb(209, 207, 207);
+    }
+
+    .header__search{
+        margin-left: 0;
     }
 }
