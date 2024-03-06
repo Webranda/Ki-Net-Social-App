@@ -1,0 +1,115 @@
+.chatbox {
+    position: fixed;
+    bottom: 30px;
+    right: 20px; 
+    width: 300px; 
+    height: 60%; 
+    background-color: whitesmoke;
+    border: 2.5px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.chatbox__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    color: #333;
+    font-weight: 400 !important;
+}
+.chatbox__avatar{
+    object-fit: contain;
+    width: 30px !important;
+    height: 30px !important;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.chatbox__closeButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: red;
+}
+.chatbox__body {
+    padding: 20px;
+    overflow-y: auto;
+    height: calc(100% - 145px);
+    background-color: whitesmoke;
+    border-bottom: 1px solid lightgray;
+}
+.chatbox__body::-webkit-scrollbar {
+    display: none;
+}
+.chatbox__body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.chatbox__message > p{
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 1px 1px 1px grey;
+    border: 1px solid lightgray;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: white;
+    margin: 10px 0;
+    width: 80%;
+    overflow-wrap: anywhere;
+}
+.chatbox__options{
+    position: absolute;
+    z-index: 999;
+    border: 2px solid lightgrey;
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    margin-top: 10px;
+    bottom: 7px;
+    left: 0;
+    width: auto;
+    margin-left: 18px;
+    background-color: whitesmoke;
+}
+.chatbox__options > form{
+    display: flex;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.chatbox__options > form > input{
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+    color: grey;
+    background-color: whitesmoke;
+}
+.chatbox__options > form > button{
+    padding: 7px 12px;
+    color: white;
+    background-color: blue;
+    font-size: 12px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .chatbox {
+        position: fixed;
+        bottom: 80px;
+        width: 300px; 
+        height: 90%; 
+        background-color: whitesmoke;
+        border: 2.5px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+}

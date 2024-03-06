@@ -1,0 +1,43 @@
+.contact-card{
+    background-color: white;
+    padding: 4px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.contact-card__header{
+    display: flex;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.contact-card__userInfo{
+    margin-left: 10px;
+}
+.contact-card__userInfo > p{
+    color: gray;
+    font-size: 12px;
+    font-weight: 400;
+}
+.contact-card__userInfo > h2 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #393e46;
+}
+.contact-card > p {
+    background-color: blue;
+    padding: 2px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 11px;
+}
+.contact-card__avatar{
+    transform: none !important;
+    color: white !important;
+    height: 30px !important;
+    width: 30px !important;
+    object-fit: cover;
+}

@@ -1,0 +1,46 @@
+.headerOption{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer; 
+    padding: 10px;
+    color: gray;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.headerOption :hover{
+    color: black;
+    cursor: pointer;
+    transform: scaleX(1.08);
+}
+
+.headerOption__icon{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.avatar{
+    transform: none !important;
+    color: white !important;
+    height: 30px !important;
+    width: 30px !important;
+    object-fit: cover;
+}
+.avatar :hover{
+    color: white;
+    transform: none;
+}
+
+@media screen and (max-width: 768px) {
+    .headerOption__title {
+        display: none;
+    }
+
+    .avatar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
