@@ -1,6 +1,6 @@
 .contact-card{
     background-color: white;
-    padding: 4px;
+    padding: 4px 50px 4px 4px;
     margin-bottom: 2px;
     border-radius: 10px;
     display: flex;
@@ -24,15 +24,6 @@
     font-size: 12px;
     font-weight: 700;
     color: #393e46;
-}
-.contact-card > p {
-    background-color: blue;
-    padding: 2px;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    color: whitesmoke;
-    font-size: 11px;
 }
 .contact-card__avatar{
     transform: none !important;

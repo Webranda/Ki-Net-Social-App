@@ -22,67 +22,71 @@ function Widgets({ isOpen }) {
                         <ContactCard 
                             name='React Community'
                             excerpt='React devs across the globe'
-                            number='4'
                             onClick={toggleChat}
                         />
                         <ContactCard 
                             name='Devs Room'
                             excerpt='React devs across the globe'
-                            number='4'
                             onClick={toggleChat}
                         />
                         <ContactCard 
                             name='Designers Club'
                             excerpt='React devs across the globe'
-                            number='4'
                             onClick={toggleChat}
                         />
                         <ContactCard 
                             name='MEMES House'
                             excerpt='React devs across the globe'
-                            number='4'
                             onClick={toggleChat}
                         />
                         <ContactCard 
                             name='Gameers Community'
                             excerpt='React devs across the globe'
-                            number='4'
                             onClick={toggleChat}
                         />
                         <ContactCard 
                             name='Tech Chat'
                             excerpt='React devs across the globe'
-                            number='4'
                             onClick={toggleChat}
                         />
                         <ContactCard 
                             name='AI Hub'
                             excerpt='React devs across the globe'
-                            number='4'
                             onClick={toggleChat}
                         />
                         <ContactCard 
                             name='Writers Hub'
                             excerpt='React devs across the globe'
-                            number='4'
                             onClick={toggleChat}
                         />
                         <ContactCard 
                             name='Unlimited Tutorials'
                             excerpt='React devs across the globe'
-                            number='4'
                             onClick={toggleChat}
                         />
                         <ContactCard 
                             name='Premium Video Editing'
                             excerpt='React devs across the globe'
-                            number='4'
                             onClick={toggleChat}
                         />
                         <ContactCard 
                             name='Project 50 Challenge'
                             excerpt='React devs across the globe'
-                            number='4'
+                            onClick={toggleChat}
+                        />
+                         <ContactCard 
+                            name='Project 50 Challenge'
+                            excerpt='React devs across the globe'
+                            onClick={toggleChat}
+                        />
+                         <ContactCard 
+                            name='Project 50 Challenge'
+                            excerpt='React devs across the globe'
+                            onClick={toggleChat}
+                        />
+                         <ContactCard 
+                            name='Project 50 Challenge'
+                            excerpt='React devs across the globe'
                             onClick={toggleChat}
                         />
                     </div>

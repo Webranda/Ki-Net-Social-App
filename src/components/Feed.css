@@ -1,12 +1,11 @@
 .feed{
-    flex:0.5;
-    margin:0 20px;
+    flex:0.55;
+    padding: 0 20px;
 }
 .feed__inputContainer{
     background-color: white;
-    padding: 10px;
-    padding-bottom: 20px;
-    border-radius: 10px;
+    padding: 200px 0;
+    border-radius: 40px;
     margin: 20px;
 }
 .feed__input{
@@ -17,9 +16,11 @@
     color: gray;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .feed__input > form{
     display: flex;
+    justify-content: space-between;
     width: 100%;
 }
 .feed__input > form > input{
@@ -30,7 +31,7 @@
     font-weight: 600;
 }
 .feed__input > form > button{
-    padding: 10px;
+    padding: 10px 0 10px 10px;
     color: grey;
     background-color: white;
     font-size: 16px;
@@ -39,6 +40,7 @@
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     cursor: pointer;
+    margin-left: 20px;
 }
 .feed__inputOptions{
     display: flex;
@@ -52,10 +54,10 @@
     }
 
     .feed__inputContainer{
-        padding: 10px;
+        padding: 20px;
         padding-bottom: 20px;
         border-radius: 10px;
-        margin: 20px;
+        margin: 12px;
     }
 
     .feed__input > form{
@@ -69,5 +71,9 @@
     }
     .feed__input > form > button{
         margin-right: 10%;
+    }
+
+    .post__container{
+        margin: 0 2%;
     }
 }

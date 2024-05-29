@@ -8,7 +8,7 @@ import Notifications from '@mui/icons-material/Notifications';
 import LiveTvRoundedIcon from '@mui/icons-material/LiveTvRounded';
 import StorefrontRoundedIcon from '@mui/icons-material/StorefrontRounded';
 import ChatRounded from '@mui/icons-material/ChatRounded';
-import image from '../assets/logo192.png';
+import image from '../assets/logo-full.png';
 
 function Header({ toggleWidgets, toggleSidebar }) {
   const isMobile = window.innerWidth <= 768;
@@ -29,9 +29,10 @@ function Header({ toggleWidgets, toggleSidebar }) {
             <HeaderOption title='Notification' Icon={Notifications}/>
             <HeaderOption title='Live Rooms' Icon={LiveTvRoundedIcon}/>
             <HeaderOption title='Marketplace' Icon={StorefrontRoundedIcon}/>
-        </div>
-        <HeaderOption avatar='#' onClick={toggleSidebar}/>
+
+            <HeaderOption avatar='#' onClick={toggleSidebar}/>
         {isMobile && <HeaderOption title='Chats' Icon={ChatRounded} onClick={toggleWidgets}/>}
+        </div>
     </div>
   )
 }

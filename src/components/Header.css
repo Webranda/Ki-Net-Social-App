@@ -11,11 +11,15 @@
 }
 .header__left{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
+    flex: 0.5;
+    margin: 0 0 0 7%;
 }
 .header__left > img {
     object-fit: contain;
-    height: 40px;
+    height: 60px;
     margin: 5px;
 }
 .header__search{
@@ -26,9 +30,10 @@
     color: grey;
     height: 22px;
     background-color: whitesmoke;
-    border: 2px solid lightgray;
+    border: 1px solid lightgray;
     border-radius: 20px;
     margin-left: 25%;
+    width: 100%;
 }
 .header__search > input {
     outline: none;
@@ -39,7 +44,10 @@
 
 .header__right {
     display: flex;
+    justify-content: space-between;
     padding: 10px;
+    flex: 0.5;
+    margin: 0 7%;
 }
 
 

@@ -7,10 +7,11 @@ import InputOption from './InputOption'
 import LiveTvRoundedIcon from '@mui/icons-material/LiveTvRounded';
 import Post from './Post';
 import Image from '../assets/post_image1.jpg';
+import Image2 from '../assets/cover_image.jpeg';
 
 function Feed() {
     return (
-        <div className='feed'>
+        <div className='feed'> 
             <div className='feed__inputContainer'>
                 <div className='feed__input'>
                     <CreateOutlined />
@@ -28,6 +29,7 @@ function Feed() {
             </div>
 
             {/* This is the Posts Area. This renders all the posts to the feed. */}
+            <div className='post__container'>
                 <Post
                     name= "Diego__Codes"
                     date= "2 mins ago"
@@ -42,7 +44,7 @@ function Feed() {
                     date= "10 mins ago"
                     message= "React is cool"
                     photoUrl= ""
-                    postImage= ""
+                    postImage= {Image2}
                 />
                 <Post
                     name= "Diego__Codes"
@@ -65,7 +67,7 @@ function Feed() {
                     photoUrl= ""
                     postImage= ""
                 />
-            
+            </div>  
         </div>
     )
 }

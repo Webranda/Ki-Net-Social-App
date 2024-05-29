@@ -32,8 +32,13 @@
     color: #393e46;
     padding: 10px 0;
 }
-.post__body > img{
+.image__container {
     max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.image__container > img{
+    width: 100%;
 }
 .post__options{
     display: flex;

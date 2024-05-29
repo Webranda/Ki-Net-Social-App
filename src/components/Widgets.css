@@ -1,11 +1,12 @@
 .widgets{
     position: sticky;
-    top: 80px; 
-    flex: 0.3;
+    top: 80px;
+    margin-top: 10px;
+    flex: 0.25;
     width: 100%;
     border-radius: 10px;
     height: fit-content;
-    text-align: center;
+    text-align: left;
 }
 .widgets__content {
     position: relative;
@@ -27,6 +28,7 @@
 .widgets__topHeader{
     display: flex;
     padding: 10px;
+    margin-bottom: 5%;
     background-color: whitesmoke;
     border: 1px solid lightgrey;
     border-radius: 10px;
@@ -46,7 +48,7 @@
 .widgets__topBody{
     padding: 10px;
     overflow-y: scroll;
-    height: 70vh;
+    height: 75vh;
 }
 .widgets__topBody > h6{
     color: grey;

@@ -19,7 +19,9 @@ return (
         </div>
         <div className='post__body'>
             <p>{message}</p>
-            <img src={postImage}/>
+            <div className='image__container'>
+                <img src={postImage}/>
+            </div>
         </div>
         <div className='post__options'>
             <InputOption Icon={ThumbUpOutlined} title='Like'/>

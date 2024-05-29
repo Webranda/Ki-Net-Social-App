@@ -4,6 +4,7 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import Feed from './Feed'
 import Widgets from './Widgets';
+import Signup from './Signup';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="app">
       <Header toggleSidebar={toggleSidebar} toggleWidgets={toggleWidgets}/>
+      <Signup/>
       <div className='app__body'>
         <Sidebar isOpen={isSidebarOpen}/>
         <Feed/>
